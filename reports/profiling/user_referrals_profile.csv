@@ -1,0 +1,12 @@
+table_name,column_name,data_type,row_count,null_count,null_percentage,distinct_value_count,min_value,max_value,top_3_values
+user_referrals,referral_at,object,46,0,0.0,44,2024-03-08 11:31:24,2024-05-24 04:57:33,"{'2024-04-22T15:04:57Z': 2, '2024-04-23T04:55:40Z': 2, '2024-05-02T14:10:16Z': 1}"
+user_referrals,referral_id,object,46,0,0.0,46,1f44ffca9257eefe62892409bce4b704,fcb804c8ff24e5b2974a7e965ebea5e8,"{'9331c8f144dad5a3b8e4a10467b4343a': 1, '6371079a92bcbf0c16ae5fcdf4fc9c10': 1, 'a49105b02e690472452527663559d97a': 1}"
+user_referrals,referee_id,object,46,3,6.52,37,04aec3adea13099cb24c4cc784f05f3d,f6507a982bde1dcda0ce0867ceac66f6,"{'08b8ab0371b6a0cb79319628505c446c': 4, '12dd343d282fb7915f55982937c30b87': 3, 'c6fb4aa67eba0ed851ac4182abe26127': 2}"
+user_referrals,referee_name,object,46,3,6.52,35,069396bf68713451107ed621971b8fd3,feb4d885f99957d87b2e8eb1fd05b193,"{'8ef43a9189c084778dadf266d6ee6071': 3, '4f5649d2d7b3ee9406436f026094c1fe': 3, '360701f01f783634925ce89e59decc37': 3}"
+user_referrals,referee_phone,object,46,0,0.0,33,0520c1cc85cbd43be086d6067e316e39,ff6a10e68ce4c4a56e3c19238619f828,"{'ce52ad7070f305b43a784b8503dbde13': 10, '5ba638fed7578e677c7600f1038f1b77': 3, 'c72ff35974713260b8153d81c84b3fa5': 3}"
+user_referrals,referral_reward_id,object,46,38,82.61,3,1,3,"{'1': 5, '2': 2, '3': 1}"
+user_referrals,referral_source,object,46,0,0.0,3,Draft Transaction,User Sign Up,"{'Draft Transaction': 27, 'Lead': 11, 'User Sign Up': 8}"
+user_referrals,referrer_id,object,46,13,28.26,13,192befbbd8b97260e28db080a661578c,f2de40c8394f4ea9a6aa49965380dd8f,"{'2c71c5d66c7e12a0b3c200ba6ed3b78e': 13, '4acfa96cb521b6963b50bcef95bee485': 7, 'f2de40c8394f4ea9a6aa49965380dd8f': 2}"
+user_referrals,transaction_id,object,46,13,28.26,27,07f21743663aacb7d212c286d47a14de,f192fca27d438c053db425fade152d66,"{'4c8cae052f19cea66544affc759b76ee': 4, 'da0071e2bb7794ac19ff4dbbb6e772f0': 3, '7709d17eaec03665f58904b72c8ab444': 2}"
+user_referrals,updated_at,object,46,0,0.0,40,2024-04-29 04:04:15,2024-05-24 04:57:33,"{'2024-05-01T02:58:58Z': 4, '2024-05-01T02:58:57Z': 3, '2024-05-23T05:32:21Z': 2}"
+user_referrals,user_referral_status_id,object,46,0,0.0,3,1,3,"{'1': 29, '3': 9, '2': 8}"

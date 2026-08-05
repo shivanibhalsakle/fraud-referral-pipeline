@@ -1,0 +1,6 @@
+table_name,column_name,data_type,row_count,null_count,null_percentage,distinct_value_count,min_value,max_value,top_3_values
+user_referral_logs,id,object,96,0,0.0,96,1,96,"{'1': 1, '2': 1, '3': 1}"
+user_referral_logs,user_referral_id,object,96,0,0.0,78,119330b602a0e3bc0b66487b6c53ec19,ffea2078bee21f79f199256757e5d578,"{'7a03e01e0c17b2322845242a796adb5e': 19, '433df86639089a01ce358b27aebdf19f': 1, 'ea4d6702e73d722499c47bbe494214be': 1}"
+user_referral_logs,source_transaction_id,object,96,79,82.29,17,0d5745a60be9f0d9163c99c91fd61efc,de0d476b360046c0d079d5f8fcb77c00,"{'aa7f55497ab7a5842145c6c58e1395c2': 1, '3efa130b4bcb9b0675e0c5ac526b1e33': 1, '701ee6fa1925773ad8e13f1f6b7293ae': 1}"
+user_referral_logs,created_at,object,96,0,0.0,96,2024-03-08 11:33:50,2024-07-10 08:51:11,"{'2024-06-02T20:42:09Z': 1, '2024-06-25T07:57:00Z': 1, '2024-04-29T10:25:56Z': 1}"
+user_referral_logs,is_reward_granted,object,96,0,0.0,2,FALSE,TRUE,"{'FALSE': 79, 'TRUE': 17}"

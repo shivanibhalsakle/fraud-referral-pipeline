@@ -1,0 +1,7 @@
+table_name,column_name,data_type,row_count,null_count,null_percentage,distinct_value_count,min_value,max_value,top_3_values
+paid_transactions,transaction_id,object,14,0,0.0,14,07f21743663aacb7d212c286d47a14de,f192fca27d438c053db425fade152d66,"{'1d1eb8a9e864a1cccb2d850398461807': 1, '8623f36f36e709fbefe43defcac59583': 1, '93d48d85048e102d32d02df43138d283': 1}"
+paid_transactions,transaction_status,object,14,0,0.0,1,PAID,PAID,{'PAID': 14}
+paid_transactions,transaction_at,object,14,0,0.0,14,2024-05-01 05:07:30.374000,2024-05-21 09:47:11.535000,"{'2024-05-02T04:49:01.497Z': 1, '2024-05-02T07:53:43.179Z': 1, '2024-05-20T04:23:09.444Z': 1}"
+paid_transactions,transaction_location,object,14,0,0.0,6,ADITYAWARMAN,SUNSET ROAD,"{'ADITYAWARMAN': 4, 'ARTERI PONDOK INDAH': 3, 'GREENVILLE': 3}"
+paid_transactions,timezone_transaction,object,14,0,0.0,2,Asia/Jakarta,Asia/Makassar,"{'Asia/Jakarta': 13, 'Asia/Makassar': 1}"
+paid_transactions,transaction_type,object,14,0,0.0,2,NEW,REJOIN,"{'NEW': 13, 'REJOIN': 1}"
