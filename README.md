@@ -1,24 +1,23 @@
-# Springer Capital — Referral Program Data Pipeline & Fraud Check
+# Referral Program Data Pipeline & Fraud Check (Springer Capital)
 
 Profiles the referral-program source data, builds a single referral-level report, and flags each referral reward as valid or invalid per the business rules in the take-home spec.
 
 ## Repository layout
+```bash
 .
- data/                          # raw source CSVs (7 tables)
- reports/                       # generated output (created when you run the pipeline)
-  referral_fraud_report.csv  # final report (one row per referral)
-  profiling/                 # per-table data profiling results
- documentation/
-  data_dictionary.xlsx       # business-facing data dictionary for the output report
- referral_pipeline.py           # main pipeline: load -> clean -> process -> flag -> output
- profile_data.py                # data profiling script (run against the raw tables)
- build_data_dictionary.py       # one-off script that generated      
- 
-documentation/data_dictionary.xlsx
- requirements.txt
- Dockerfile
- entrypoint.sh                  # runs profiling then the pipeline inside the container
- README.md
+├── data/ # raw source CSVs (7 tables)
+├── reports/ # generated output
+│ ├── referral_fraud_report.csv # final report, one row per referral
+│ └── profiling/ # per-table data profiling results
+├── documentation/
+│ └── data_dictionary.xlsx # business-facing column definitions
+├── referral_pipeline.py # load -> clean -> process -> flag -> output
+├── profile_data.py # profiles the raw tables
+├── build_data_dictionary.py # one-off generator for data_dictionary.xlsx
+├── requirements.txt
+├── Dockerfile
+├── entrypoint.sh # runs profiling then the pipeline in-container
+└── README.md
 ```
 
 ## Approach
